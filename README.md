@@ -4,6 +4,14 @@ Foi criado 3 exemplos de como consumir a API de autenticação para acesso exter
 
 Nos exemplo mostramos como obter o token, como solicitar o refresh do token e como utilizar o token para realizar um request para as APIs de negócio.
 
+## Sobre
+
+- Token JWT.
+- Validade do token é de 2 horas.
+- Validade do refresh token é de 4 horas.
+- Quando é executado o refresh token, é gerado um novo token e um novo refresh token para ser utilizado.
+- O usuário pode ter apenas um refresh token valido por vez, ou seja, se exitir um refresh token valido e for gerado um novo token, o refresh token existente será descartado.
+
 ### Como executar os exemplos?
 
 Para executar os exemplos é necessário seguir os passos abaixo.
